@@ -1,0 +1,165 @@
+<html>
+<style>
+body {
+   background-image: url('pic/gc1.jpg');
+   background-size: cover;
+   background-position: center;
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+}
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   padding: 20px;
+   border-bottom: hidden;
+}
+
+.logo {
+   width: 60px;
+   height: 60px;
+   background-image: url('pic/gclogo.png');
+   background-size: cover;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #333;
+   font-size: 12px;
+   margin-right: 10px;
+}
+
+.nav {
+   display: flex;
+   list-style: none;
+}
+
+.nav li {
+   margin: 0 20px;
+}
+
+.nav a {
+   text-decoration: none;
+   color: #333;
+   font-size: 14px;
+}
+
+.sign-in {
+   background-color: #ddd;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 20px;
+   cursor: pointer;
+}
+.sign-in:hover {
+   background-color: rgb(0, 0, 0);
+   border: 1px solid black;
+   color: white;
+}
+
+.hero {
+   width: 100%;
+   height: 500px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 24px;
+   margin-top: 50px;
+}
+
+.hero-image {
+   width: 70%;
+   height: 70%;
+   background-color: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 24px;
+   border-collapse: collapse;
+   border: hidden;
+   border-radius: 100px;
+   background-image: url('pic/gcgroup.jpg');
+   background-size: cover;
+   background-position: center;
+   
+}
+
+.cta {
+   display: flex;
+   justify-content: space-around;
+   width: 50%;
+   margin-top: 50px;
+}
+
+.cta button {
+   background-color: #ddd;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 20px;
+   cursor: pointer;
+}
+
+.cta button:hover {
+   background-color: rgb(0, 0, 0);
+   border: 1px solid black;
+   color: white;
+}
+
+h2 {
+   font-size: 70px;
+   font-family: serif;
+   color: transparent;
+   text-align: center;
+   animation: effect 2s linear infinite;
+   }
+ 
+@keyframes effect {
+   0% {
+   background: linear-gradient(#008000, #00FF00);
+   -webkit-background-clip: text;
+   }
+ 
+   100% {
+   background: linear-gradient(#3CE7D7, #000FFF);
+   -webkit-background-clip: text;
+   }
+   }
+
+</style>
+<body>
+   <div class="header">
+       <div class="logo">
+          
+       </div>
+       <ul class="nav">
+           <li><a href="#">Home</a></li>
+           <li><a href="#">About</a></li>
+           <li><a href="#">Help & Support</a></li>
+           <li><a href="#">Sign Up</a></li>
+       </ul>
+       <button class="sign-in">Sign In</button>
+   </div>
+   <div class="hero">
+      
+       <div class="hero-image">
+           <div class="hero-text">
+               <h2>Welcome to GCScapes</h2>
+           </div>
+       </div>
+   </div>
+   <div class="cta">
+       <button>Button</button>
+       <button>Button</button>
+   </div>
+</body>
+
+
+
+
